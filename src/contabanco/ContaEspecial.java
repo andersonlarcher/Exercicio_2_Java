@@ -18,6 +18,8 @@ public class ContaEspecial extends Contabanco
         super.sacar(valor);
         if (valor < saldo)
         System.out.println("Permitido sacar");
+        else
+        System.out.println("impossivel");
     }
     
 
